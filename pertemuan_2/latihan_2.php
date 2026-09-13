@@ -84,8 +84,20 @@ $biayaakhir=$totalpembelian-$hasildiskon;
                 <td align="right"><?php echo $totalharga4;?></td>
             </tr>
             <tr>
-                <td>
+                <td colspan="3" align="right">Total Harga</td>
+                <td align="right"><?php echo $totalpembelian;?></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">
+                    Diskon <?php echo "$diskon%";?></td>
+                <td align="right"><?php echo $totalpembelian;?></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right">Jumlah harus dibayar</td>
+                <td align="right"><?php echo $biayaakhir;?></td> 
+            </tr>
         </table>
+        </center>
     </body>
 </html>
 
